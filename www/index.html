@@ -25,13 +25,15 @@
 			  }
 			});		*/
 			
-			var windowObjectReference;
+			/*var windowObjectReference;
 			var strWindowFeatures = "menubar=yes,location=yes,resizable=yes,scrollbars=yes,status=yes";
 
 			function openRequestedPopup() {
-			  windowObjectReference = window.open("http://67.227.175.97/~audubon/static/", "_self", strWindowFeatures);
+			  windowObjectReference = window.open("http://jaxcohome.com", "_self", strWindowFeatures);
 			}
-			openRequestedPopup();
+			openRequestedPopup();*/
+			
+			var ref = cordova.InAppBrowser.open('http://jaxcohome.com', '_blank', 'location=yes');
 		</script>
     </body>
 </html>
